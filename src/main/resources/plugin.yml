@@ -1,0 +1,50 @@
+name: Ely
+version: '${project.version}'
+main: ely2.ely.Main
+api-version: 1.15
+
+
+
+commands:
+  basic:
+    description: This is a demo command.
+    permission: DuzziPL.basic
+  particle:
+    permission: DuzziPL.eff
+  test:
+    permission: DuzziPL.test
+  xp:
+    permission: DuzziPL.xp
+  level:
+    permission: DuzziPL.level
+  reset:
+    permission: DuzziPL.reset
+  uuid:
+    permission: DuzziPL.uuid
+  SpawnPos1:
+    permission: DuzziPl.SpawnPos1
+  SpawnPos2:
+    permission: DuzziPL.SpawnPos2
+  dundo:
+    permission: DuzziPL.dundo
+permissions:
+  DuzziPL.basic:
+    default: op
+  DuzziPL.eff:
+    default: op
+  DuzziPL.test:
+    default: op
+  DuzziPL.xp:
+    default: op
+  DuzziPL.level:
+    default: op
+  DuzziPL.reset:
+    default: op
+  DuzziPL.uuid:
+    default: op
+  DuzziPL.SpawnPos1:
+    default: op
+  DuzziPL.SpawnPos2:
+    default: op
+  DuzziPL.dundo:
+    default: op
