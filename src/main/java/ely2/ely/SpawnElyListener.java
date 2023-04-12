@@ -120,9 +120,4 @@ public class SpawnElyListener implements org.bukkit.event.Listener {
         }
         return false;
     }
-
-    public boolean test(Player player) {
-        for Player p :
-        return false;
-    }
 }
